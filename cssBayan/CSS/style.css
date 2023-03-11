@@ -40,6 +40,7 @@ body::-webkit-scrollbar {
   transition: 0.2s all;
   margin-bottom: 0.625em;
   border-bottom: 0.01em solid #353535;
+  cursor: pointer;
 }
 
 .acc-item:active {
