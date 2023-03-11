@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: calc(100% - 6.4rem);
+}
+
+.heading-primary {
+  margin-top: 1.6rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.8rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #adadad;
+}
+
+.acc {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.acc-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1c7ed6;
+  transition: 0.2s all;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #353535;
+}
+
+.acc-item:active {
+  filter: brightness(0.5);
+}
+
+.acc-input {
+  display: none;
+}
+
+.acc-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.17rem;
+}
+
+.acc-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: 0.3s all;
+}
+
+.acc-img {
+  grid-column: 1 / -1;
+  justify-self: center;
+  overflow: hidden;
+  height: 0;
+  width: 0;
+  transition: 0.3s all;
+}
+
+.acc-input:checked ~ .acc-label {
+  color: #1c7ed6;
+  filter: brightness(0.5);
+}
+
+.acc-input:checked ~ .acc-label img {
+  transform: rotate(225deg);
+}
+
+.acc-input:checked ~ .acc-img {
+  height: 20rem;
+  width: 20rem;
+}
