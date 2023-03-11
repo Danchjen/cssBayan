@@ -1,6 +1,31 @@
 @media (min-width: 820px) {
-  html {
-    font-size: 16px;
+  .heading-primary {
+    font-size: 2em;
+  }
+
+  .acc-item {
+    cursor: pointer;
+  }
+
+  .acc-label {
+    font-size: 1.25em;
+  }
+
+  .acc-icon {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  .acc-input:checked ~ .acc-img {
+    height: 20em;
+    width: 20em;
+  }
+}
+
+@media (min-width: 1366px) {
+  .acc-label:hover {
+    color: #1c7ed6;
+    filter: brightness(0.5);
   }
 }
 
