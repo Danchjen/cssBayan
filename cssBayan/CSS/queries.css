@@ -16,9 +16,7 @@
     height: 20em;
     width: 20em;
   }
-}
 
-@media (min-width: 1366px) {
   .acc-label:hover {
     color: #1c7ed6;
     filter: brightness(0.5);
