@@ -1,5 +1,11 @@
-@media (min-width: 82rem) {
+@media (min-width: 820px) {
+  html {
+    font-size: 16px;
+  }
 }
 
-@media (min-width: 192rem) {
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
 }
