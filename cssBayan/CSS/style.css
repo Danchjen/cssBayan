@@ -12,6 +12,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   margin: 0 auto;
   width: calc(100% - 4em);
