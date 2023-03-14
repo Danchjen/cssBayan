@@ -12,8 +12,20 @@
     height: 1.2em;
   }
 
+  .acc span {
+    transition: 0.3s color;
+  }
+
   .acc:hover span {
     color: #000;
+  }
+
+  .acc-icon {
+    opacity: 0;
+  }
+
+  .acc:hover .acc-item .acc-label .acc-icon {
+    opacity: 1;
   }
 
   .acc-input:checked ~ .acc-img,
@@ -22,12 +34,8 @@
   .acc-img-box:hover {
     height: 20em;
     cursor: pointer;
+    opacity: 1;
   }
-
-  /* .acc-label:hover {
-    color: #1c7ed6;
-    filter: brightness(0.5);
-  } */
 
   .acc-input:hover ~ .acc-label img {
     transform: rotate(225deg);
