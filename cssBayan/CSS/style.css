@@ -8,10 +8,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 li {
   list-style: none;
 }
