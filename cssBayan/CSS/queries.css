@@ -39,7 +39,10 @@
     height: 1.2em;
   }
 
-  .acc-input:checked ~ .acc-img {
-    height: 25em;
+  .acc-input:checked ~ .acc-img,
+  .acc-input:checked ~ .acc-img-box,
+  .acc-label:hover ~ .acc-img-box,
+  .acc-img-box:hover {
+    height: 40em;
   }
 }
