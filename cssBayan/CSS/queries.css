@@ -17,6 +17,7 @@
   .acc-label:hover ~ .acc-img-box,
   .acc-img-box:hover {
     height: 20em;
+    cursor: pointer;
   }
 
   .acc-label:hover {
