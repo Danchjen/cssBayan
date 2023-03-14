@@ -12,6 +12,10 @@
     height: 1.2em;
   }
 
+  .acc:hover span {
+    color: #000;
+  }
+
   .acc-input:checked ~ .acc-img,
   .acc-input:checked ~ .acc-img-box,
   .acc-label:hover ~ .acc-img-box,
@@ -20,9 +24,13 @@
     cursor: pointer;
   }
 
-  .acc-label:hover {
+  /* .acc-label:hover {
     color: #1c7ed6;
     filter: brightness(0.5);
+  } */
+
+  .acc-input:hover ~ .acc-label img {
+    transform: rotate(225deg);
   }
 }
 

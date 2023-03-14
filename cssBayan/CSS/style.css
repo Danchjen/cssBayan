@@ -25,6 +25,10 @@ li {
   border-bottom: 0.1em solid #adadad;
 }
 
+.acc span {
+  transition: 0.3s color;
+}
+
 .acc-item {
   display: flex;
   flex-direction: column;
@@ -78,8 +82,7 @@ li {
 }
 
 .acc-input:checked ~ .acc-label {
-  color: #1c7ed6;
-  filter: brightness(0.5);
+  color: #000;
 }
 
 .acc-input:checked ~ .acc-label img {
